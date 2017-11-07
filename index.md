@@ -5,3 +5,5 @@
 layout: default
 ---
 Hello World
+
+![Wolf Creek Alberta Face]({{ "/assets/images/WolfCreekAlbertaFace.jpg" | absolute_url }})
