@@ -4,8 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-Hello World
-
-![Wolf Creek Alberta Face][logo]
-
-[logo]:assets\images\WolfCreekAlbertaFace.JPG "Wolf Creek Alberta Face"
