@@ -1,0 +1,18 @@
+---
+content:
+  - title: Home
+    url: /home/
+  - title: Documents
+    subitems:
+      - title: Doc 1
+        url: /page1/
+      - title: Doc 2
+        url: /page2/
+      - title: Doc 3
+        url: /page3/
+      - title: Doc 4
+        url: /page4/
+      - title: Doc 5
+        url: /page5/
+  - title: About
+    url: /about/
