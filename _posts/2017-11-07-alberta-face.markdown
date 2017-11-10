@@ -10,4 +10,3 @@ Hello World
 ![Wolf Creek Alberta Face][logo]
 
 [logo]:{{ site.imageurl }}/WolfCreekAlbertaFace.JPG "Wolf Creek Alberta Face"
-

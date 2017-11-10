@@ -1,0 +1,16 @@
+<header>
+  <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+  <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+
+  {% include theme/post_list.html %}
+
+  <ul>
+    {% include downloads_btns.html %}
+    {% include repository_btn.html %}
+  </ul>
+
+  {% include maintainer_btn.html %}
+
+  {% include profile_btn.html %}
+
+</header>
