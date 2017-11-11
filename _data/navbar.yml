@@ -3,7 +3,8 @@ content:
   - title: Home
     url: /home/
   - title: Documents
-    subitems:
+    url: /documents/
+    sublinks:
       - title: Doc 1
         url: /page1/
       - title: Doc 2
