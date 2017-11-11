@@ -6,8 +6,7 @@
     {% for link in links %}
       {% if link.sublinks %}
         <li class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-            Documents <span class="caret"></span>
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> Documents <span class="caret"></span>
           </button>
 
           <ul class="dropdown-menu">
