@@ -6,10 +6,8 @@
     {% for link in links %}
       {% if link.sublinks %}
         <li class="dropdown">
-          <button class="btn dropdown-toggle"
-                  type="button"
-                  data-toggle="dropdown">
-            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }} <span class="caret"></span></a>
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            Documents <span class="caret"></span>
           </button>
 
           <ul class="dropdown-menu">
@@ -22,7 +20,7 @@
         </li>
       {% else %}
         <li>
-          <button class="btn" type="button">
+          <button class="btn btn-default" type="button">
             <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
           </button>
         </li>
