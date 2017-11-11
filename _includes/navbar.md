@@ -13,7 +13,7 @@
           <button class="btn dropdown-toggle"
                   type="button"
                   data-toggle="dropdown">
-            <a href="{{ sublink.url }}">{{ link.title }} <span class="caret"></span></a>
+            <a href="{{ site.baseurl }}{{ sublink.url }}">{{ link.title }} <span class="caret"></span></a>
           </button>
 
           <ul class="dropdown-menu">
