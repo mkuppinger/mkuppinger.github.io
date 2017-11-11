@@ -6,8 +6,7 @@
     {% for link in links %}
       {% if link.sublinks %}
         <li class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> Documents <span class="caret"></span>
-          </button>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 
           <ul class="dropdown-menu">
             {% for sublink in link.sublinks %}
