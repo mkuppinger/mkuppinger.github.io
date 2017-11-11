@@ -9,13 +9,13 @@
           <button class="btn dropdown-toggle"
                   type="button"
                   data-toggle="dropdown">
-            <a href="{{ link.url }}">{{ link.title }} <span class="caret"></span></a>
+            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }} <span class="caret"></span></a>
           </button>
 
           <ul class="dropdown-menu">
             {% for sublink in link.sublinks %}
               <li>
-                <a href="{{ sublink.url }}">{{ sublink.title }}</a>
+                <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -23,7 +23,7 @@
       {% else %}
         <li>
           <button class="btn" type="button">
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
           </button>
         </li>
       {% endif %}
